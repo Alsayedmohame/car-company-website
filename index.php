@@ -61,7 +61,7 @@
         /* القسم الترحيبي الكبير (Hero Section) */
         .hero {
             background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(11, 11, 11, 1)), 
-                        url('https://porsche.com') no-repeat center center/contain;
+                        url('porsche.jpg') no-repeat center center/contain;
             text-align: center;
             padding: 100px 20px;
             border-bottom: 3px solid var(--main-color);
@@ -282,7 +282,7 @@
             <!-- السيارة الأولى: بورش -->
             <div class="car-card">
                 <div class="car-img-wrapper">
-                    <img src="https://porsche.com" alt="Porsche 911">
+                    <img src="porsche.jpg" alt="Porsche 911">
                     <div class="car-tag">جديد حصري</div>
                 </div>
                 <div class="car-info">
@@ -303,7 +303,7 @@
             <!-- السيارة الثانية: مرسيدس -->
             <div class="car-card">
                 <div class="car-img-wrapper">
-                    <img src="https://mercedes-benz.com.eg" alt="Mercedes AMG">
+                    <img src="mercedes.jpg" alt="Mercedes AMG">
                     <div class="car-tag">الأكثر مبيعاً</div>
                 </div>
                 <div class="car-info">
@@ -323,3 +323,11 @@
 
             <!-- السيارة الثالثة: أودي -->
             <div class="car-card">
+                <div class="car-img-wrapper">
+                    <img src="audi.jpg" alt="Audi R8">
+                    <div class="car-tag">طلب خاص</div>
+                </div>
+                <div class="car-info">
+                    <h3>أودي R8 كوپيه</h3>
+                    <p>تصميم هجومي جريء بمحرك جبار يمنحك تجربة قيادة سيارات السباق الحقيقية.</p>
+                    <div class="car-specs">
