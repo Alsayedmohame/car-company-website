@@ -60,8 +60,8 @@
 
         /* القسم الترحيبي الكبير (Hero Section) */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(11, 11, 11, 1)), 
-                        url('https://unsplash.com') no-repeat center center/cover;
+            background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(11, 11, 11, 1)), 
+                        url('https://porsche.com') no-repeat center center/contain;
             text-align: center;
             padding: 100px 20px;
             border-bottom: 3px solid var(--main-color);
@@ -155,6 +155,7 @@
             position: relative;
             height: 220px;
             overflow: hidden;
+            background-color: #151515;
         }
 
         .car-card img {
@@ -165,7 +166,7 @@
         }
 
         .car-card:hover img {
-            transform: scale(1.1);
+            transform: scale(1.05);
         }
 
         .car-tag {
@@ -178,6 +179,7 @@
             font-size: 0.85rem;
             font-weight: bold;
             border-radius: 20px;
+            z-index: 10;
         }
 
         .car-info {
@@ -280,7 +282,7 @@
             <!-- السيارة الأولى: بورش -->
             <div class="car-card">
                 <div class="car-img-wrapper">
-                    <img src="https://unsplash.com" alt="Porsche 911">
+                    <img src="https://porsche.com" alt="Porsche 911">
                     <div class="car-tag">جديد حصري</div>
                 </div>
                 <div class="car-info">
@@ -301,7 +303,7 @@
             <!-- السيارة الثانية: مرسيدس -->
             <div class="car-card">
                 <div class="car-img-wrapper">
-                    <img src="https://unsplash.com" alt="Mercedes AMG">
+                    <img src="https://mercedes-benz.com.eg" alt="Mercedes AMG">
                     <div class="car-tag">الأكثر مبيعاً</div>
                 </div>
                 <div class="car-info">
@@ -321,7 +323,3 @@
 
             <!-- السيارة الثالثة: أودي -->
             <div class="car-card">
-                <div class="car-img-wrapper">
-                    <img src="https://unsplash.com" alt="Audi R8">
-                    <div class="car-tag">طلب خاص</div>
-                </div>
